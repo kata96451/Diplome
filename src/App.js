@@ -1,10 +1,11 @@
-import './App.css';
+import React from "react";
+import './App.scss';
+import Main from "./Pages/Main";
+
 
 function App() {
   return (
-    <div>
-
-    </div>
+       <Main />
   );
 }
 
