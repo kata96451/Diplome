@@ -1,0 +1,21 @@
+.list-group-item{
+  display: inline;
+}
+.note{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  background-color: #F5F5F5;
+}
+.button{
+  background-color: #fff;
+  border: none;
+}
+.button_star{
+  background: url("./img/star.svg") no-repeat 50% 50%;
+  width: 16px;
+  height: 16px;
+  border: none;
+}
