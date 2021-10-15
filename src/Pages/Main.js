@@ -10,13 +10,10 @@ function Main() {
         .map((_, i) => ({id: i, title: `Note ${i + 1}`}))
 
     return (
-        <div className="background">
-            <div className="container">
-                <Header />
-                <Form />
-                <Notes notes={notes}/>
-            </div>
-
+        <div className="container">
+            <Header />
+            <Form />
+            <Notes notes={notes}/>
         </div>
     );
 }

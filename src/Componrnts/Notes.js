@@ -10,10 +10,10 @@ export const Notes = ({notes}) => {
     return (
         <ul className="list-group">
             {notes.map(note => (
-                <li className="list-group-item note"
+                <li className="list-group-item notes"
                     key={note.id}>{note.title}
                     <ButtonToolbar className="button_bar">
-                        <button className="button_star"></button>
+                        <button className="button_star"/>
                         <IconButton icon={<FaRegCheckCircle />} className="button"/>
                         <IconButton icon={<HiOutlinePencilAlt />} className="button"/>
                         <IconButton icon={<AiOutlineCloseCircle />} className="button"/>
